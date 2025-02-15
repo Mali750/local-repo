@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #222;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?coding,developer') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero span {
+    color: #ffcc00;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ff9900;
+}
+
+/* About Section */
+.about, .projects, .contact {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #222;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project h3 {
+    color: #ffcc00;
+}
+
+/* Contact Section */
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
